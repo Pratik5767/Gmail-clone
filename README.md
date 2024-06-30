@@ -9,8 +9,10 @@ Welcome to the Gmail Clone project! This project is a full-featured web applicat
 - [Screenshots](#screenshots)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
+- [Deploy](#deployment)
 - [Contributing](#contributing)
 - [Contact](#contact)
+
 
 ## Features
 
@@ -73,7 +75,6 @@ Welcome to the Gmail Clone project! This project is a full-featured web applicat
     ```sh
     npm run dev
     ```
-    
 
 ## Usage
 
@@ -81,6 +82,42 @@ Welcome to the Gmail Clone project! This project is a full-featured web applicat
 - **Compose Email:** Click on the compose button to draft a new email.
 - **Inbox:** View received emails in your inbox.
 - **Read/Delete Email:** Click on an email to read it or delete it if no longer needed.
+
+  
+## Deployment
+
+To deploy this project, you can use Firebase Hosting. Follow these steps:
+
+1. Install Firebase CLI:
+    ```sh
+    npm install -g firebase-tools
+    ```
+
+2. Log in to Firebase:
+    ```sh
+    firebase login
+    ```
+
+3. Initialize Firebase in your project:
+    ```sh
+    firebase init
+    ```
+
+4. Choose "Hosting" and select your Firebase project.
+
+
+6. Build your React app:
+    ```sh
+    npm run build
+    ```
+
+7. Deploy to Firebase:
+    ```sh
+    firebase deploy
+    ```
+
+8. The deployed Project is as follows: https://fir-b0663.web.app
+
 
 ## Contributing
 
