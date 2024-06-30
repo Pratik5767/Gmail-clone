@@ -5,13 +5,14 @@ import { GoogleAuthProvider, getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "fir-b0663.firebaseapp.com",
-  projectId: "fir-b0663",
-  storageBucket: "fir-b0663.appspot.com",
-  messagingSenderId: "62101617985",
-  appId: "1:62101617985:web:f5442e7e797d05efeaf5c0",
-  measurementId: "G-9YSG11T1CM"
+  //Add the following when setting up the firebase
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
